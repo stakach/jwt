@@ -1,7 +1,12 @@
+# Standard libary
 require "json"
 require "base64"
 require "openssl/hmac"
 
+# Dependecies
+require "../libs/openssl/openssl"
+
+# Own files
 require "./jwt/*"
 
 module JWT

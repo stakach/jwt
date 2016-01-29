@@ -1,7 +1,11 @@
 name: jwt
 version: 0.1.0
-
 authors:
   - Potapov Sergey <blake131313@gmail.com>
-
 license: MIT
+
+dependencies:
+  openssl:
+    github: datanoise/openssl.cr
+    branch: master
+
